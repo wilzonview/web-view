@@ -1,14 +1,14 @@
 :root {
-  --base: #05070b;
-  --base-2: #090e17;
-  --surface: rgba(13, 23, 40, 0.78);
-  --surface-solid: #0d1728;
-  --surface-soft: rgba(255, 255, 255, 0.045);
-  --line: rgba(188, 214, 255, 0.16);
-  --line-bright: rgba(69, 166, 255, 0.42);
-  --text: #edf5ff;
-  --muted: #91a5bd;
-  --accent: #249dff;
+  --base: #06101d;
+  --base-2: #0b2a47;
+  --surface: rgba(13, 42, 70, 0.76);
+  --surface-solid: #0d2a46;
+  --surface-soft: rgba(17, 42, 68, 0.58);
+  --line: rgba(121, 181, 235, 0.2);
+  --line-bright: rgba(42, 166, 255, 0.56);
+  --text: #f0f7ff;
+  --muted: #aac0d8;
+  --accent: #22a4ff;
   --accent-2: #ffbd72;
   --chrome: #b9c7d8;
   --live: #53f5d0;
@@ -27,9 +27,9 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    radial-gradient(circle at 82% 3%, rgba(36, 157, 255, 0.22), transparent 26%),
-    radial-gradient(circle at 14% 18%, rgba(255, 189, 114, 0.12), transparent 18%),
-    linear-gradient(180deg, #09111f 0%, var(--base) 44%, #030509 100%);
+    radial-gradient(circle at 78% 6%, rgba(44, 167, 255, 0.26), transparent 27%),
+    radial-gradient(circle at 15% 18%, rgba(255, 189, 114, 0.1), transparent 19%),
+    linear-gradient(180deg, #12375a 0%, #0d2d4d 42%, #071827 100%);
   color: var(--text);
   font-family: Inter, "Helvetica Neue", Arial, sans-serif;
 }
